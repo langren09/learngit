@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>出入境微信服务平台测试网页</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="css/index.css">
+		<style>
+			/*@font-face
+			{
+				font-family: myFirstFont;
+				src: url('youyuan.TTF');
+     			
+			}*/
+		</style>
+	</head>
+	<body>
+		<!-- 竖屏体验[[ -->
+    	<div class="lock flex flex-v flex-pack-center flex-align-center">
+    	<div class="lock-bg"></div>
+   	 	<p class="lock-txt">为了更好的体验，请使用竖屏浏览</p>
+    	</div>
+		<!-- 竖屏体验[[ -->
+		<!-- <header  class="bgImg"> -->
+		<header class="bgImg">			
+				<!-- <div ><h2><span>郑州</span><span class="split">|</span>出入境微信服务平台</h2></div>
+				<p>ZhengZhou entry and exit WeChat service platform</p> -->
+				<img src="image/112.png" >
+		</header>
+		<div class="">
+				<div class="mk">
+					<ul class="mkAll">
+						<h3><span></span>业务办理</h3>
+						<li><img src="image/017.png" alt=""><a href="img/Pao1.jpg">只跑一次</a></li>
+						<li><img src="image/015.png" alt=""><a href="dh.html">服务咨询</a></li>
+						<li><img src="image/016.png" alt=""><a href="add.html"">办证网点</a></li>
+						<li><img src="image/014.png" alt=""><a href="lc.html">办理流程</a></li>
+					</ul>
+				</div>
+				<div class="mk">
+					<ul class="mkAll">
+						<h3><span></span>便民服务</h3>
+						<li><img src="image/011.png" alt=""><a href="gs.html">申请材料</a></li>
+						<li><img src="image/012.png" alt=""><a href="https://app1.henanga.gov.cn/jmth5/H5/demo/jpyc/pages/crjbl.html">进度查询</a></li>
+						<li><img src="image/013.png" alt=""><a id="wsyy">预约办证</a></li>
+						<li><img src="image/019.png" alt=""><a href="http://www.infocrj.com:2000/411481/Main.html">网上填表</a></li>
+						<li><img src="image/013.png" alt=""><a href="">法律法规</a></li>
+						<li><img src="image/019.png" alt=""><a href="sf.html">收费标准</a></li>
+					</ul>
+				</div>
+				<div class="bottomB"></div>
+
+		</div>
+		<!-- <footer>
+			<p><img src="image/1.png" alt=""><span>郑州市公安局出入境</span></p>
+		</footer> -->
+		<footer>
+			<p>© 技术支持&nbsp——&nbsp德力科技 </p>
+		</footer>
+
+		<script src="js/index.js"></script>
+	</body>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+			var sure = document.getElementById('wsyy');
+			    sure.onclick=function(){	
+				var url='http://www.infocrj.com:3333/yycs/main.html';
+				var SiteGroup='YC111';
+				window.location.href=url+"?x1="+SiteGroup;
+			}
+
+
+</script>
+</html>
