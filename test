@@ -2,3 +2,6 @@ test
 1.测试添加文件；
 2.文件add后会添加到暂存区，然后commit提交到master上边；
 3.git diff会显示没有add的；
+4.untrack表示是新文件，没有被add过，是为跟踪的意思；
+5.not staged 表示add过的文件，即跟踪文件，再次修改没有add，就是没有暂存的意思
+
