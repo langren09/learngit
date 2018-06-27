@@ -1,0 +1,4 @@
+test
+1.测试添加文件；
+2.文件add后会添加到暂存区，然后commit提交到master上边；
+3.git diff会显示没有add的；
